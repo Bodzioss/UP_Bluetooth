@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Bluetooth_m/1.0.0": {
+        "dependencies": {
+          "32feet.NET": "3.5.0",
+          "Brecham.Obex": "1.7.0"
+        },
+        "runtime": {
+          "Bluetooth_m.dll": {}
+        }
+      },
+      "32feet.NET/3.5.0": {
+        "runtime": {
+          "lib/net/InTheHand.Net.Personal.dll": {
+            "assemblyVersion": "3.5.605.0",
+            "fileVersion": "3.5.605.0"
+          }
+        }
+      },
+      "Brecham.Obex/1.7.0": {
+        "runtime": {
+          "lib/net/Brecham.Obex.dll": {
+            "assemblyVersion": "1.7.1012.0",
+            "fileVersion": "1.7.1012.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bluetooth_m/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "32feet.NET/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edc4otytrDm/zSpssF61LsZzkxZeaCEAo4cOUO1foS6OhUUCsEPRRTmwEG+jYC2zU1sYFrpZnjJU6F3a6NjSgA==",
+      "path": "32feet.net/3.5.0",
+      "hashPath": "32feet.net.3.5.0.nupkg.sha512"
+    },
+    "Brecham.Obex/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cbN/sXE26NYGOmODXEBBRyiuKnxRT/TG3yAFHYkAS4ZkCTtDRakA0AyEidN6WPISNRzI6tLWBFtPAX7SSfHpsA==",
+      "path": "brecham.obex/1.7.0",
+      "hashPath": "brecham.obex.1.7.0.nupkg.sha512"
+    }
+  }
+}
